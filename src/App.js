@@ -1,14 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import React, {useState, useEffect} from 'react';
+import {useState, useEffect} from 'react';
 import { authenticate } from './FacebookSDK';
 
 const App = () => { 
   const [fbId, setFbId]= useState();
   const [displayName, setDisplayName] = useState();
   const [imageUrl, setImageUrl] = useState();
-  const [imageHeight, setImageHeight] = useState();
-  const [imageWidth, setImageWidth] = useState();
   const [loggedIn, setLoggedIn] = useState(false);
   
   const processAuthResponse = async (authResponse) => {
