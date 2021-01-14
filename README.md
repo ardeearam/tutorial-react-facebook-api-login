@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Tutorial: Facebook Login with React App
+
+You can check this code in action at https://main.dij2rwuwkgcrl.amplifyapp.com/ via AWS Amplify.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
