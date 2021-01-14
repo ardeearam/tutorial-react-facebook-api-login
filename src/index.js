@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { initializeFacebookSDK } from './FacebookSDK';
 
-initializeFacebookSDK().then((authResponse) => {
+initializeFacebookSDK().then(() => {
 
   ReactDOM.render(
     <React.StrictMode>
