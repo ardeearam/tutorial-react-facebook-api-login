@@ -37,7 +37,3 @@ export const authenticate = async (accessToken) => {
     
 }
 
-export const logout = async () => {
-    
-    
-}
